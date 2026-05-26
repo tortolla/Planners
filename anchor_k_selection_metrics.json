@@ -1,0 +1,640 @@
+[
+  {
+    "K": 8,
+    "algorithm": "cv2.kmeans",
+    "attempts": 8,
+    "max_iter": 500,
+    "compactness": 1164.530893352181,
+    "mse": 0.0763426572277554,
+    "rmse": 0.276301750316127,
+    "inertia": 1164.530893352181,
+    "inertia_per_sample": 0.0763426572277554,
+    "silhouette_sample": null,
+    "silhouette_note": "not computed: sklearn/scipy dependency intentionally avoided; use RMSE, cluster sizes, and visual anchor grids instead",
+    "min_cluster_size": 287,
+    "max_cluster_size": 6141,
+    "empty_clusters": 0,
+    "cluster_sizes": {
+      "0": 4796,
+      "1": 307,
+      "2": 6141,
+      "3": 287,
+      "4": 308,
+      "5": 581,
+      "6": 2164,
+      "7": 670
+    },
+    "source_by_cluster": {
+      "0": {
+        "Waymo": 578,
+        "i2Nav-Robot": 4218
+      },
+      "1": {
+        "Waymo": 306,
+        "i2Nav-Robot": 1
+      },
+      "2": {
+        "Waymo": 6008,
+        "i2Nav-Robot": 133
+      },
+      "3": {
+        "Waymo": 261,
+        "i2Nav-Robot": 26
+      },
+      "4": {
+        "Waymo": 308
+      },
+      "5": {
+        "Waymo": 515,
+        "i2Nav-Robot": 66
+      },
+      "6": {
+        "Waymo": 1684,
+        "i2Nav-Robot": 480
+      },
+      "7": {
+        "Waymo": 340,
+        "i2Nav-Robot": 330
+      }
+    }
+  },
+  {
+    "K": 12,
+    "algorithm": "cv2.kmeans",
+    "attempts": 8,
+    "max_iter": 500,
+    "compactness": 903.1365422160306,
+    "mse": 0.05920653875809825,
+    "rmse": 0.24332393790603143,
+    "inertia": 903.1365422160306,
+    "inertia_per_sample": 0.05920653875809825,
+    "silhouette_sample": null,
+    "silhouette_note": "not computed: sklearn/scipy dependency intentionally avoided; use RMSE, cluster sizes, and visual anchor grids instead",
+    "min_cluster_size": 38,
+    "max_cluster_size": 4955,
+    "empty_clusters": 0,
+    "cluster_sizes": {
+      "0": 2431,
+      "1": 4955,
+      "2": 229,
+      "3": 1634,
+      "4": 581,
+      "5": 261,
+      "6": 243,
+      "7": 1353,
+      "8": 263,
+      "9": 2615,
+      "10": 651,
+      "11": 38
+    },
+    "source_by_cluster": {
+      "0": {
+        "Waymo": 547,
+        "i2Nav-Robot": 1884
+      },
+      "1": {
+        "Waymo": 4744,
+        "i2Nav-Robot": 211
+      },
+      "2": {
+        "Waymo": 229
+      },
+      "3": {
+        "Waymo": 1633,
+        "i2Nav-Robot": 1
+      },
+      "4": {
+        "Waymo": 312,
+        "i2Nav-Robot": 269
+      },
+      "5": {
+        "Waymo": 261
+      },
+      "6": {
+        "Waymo": 238,
+        "i2Nav-Robot": 5
+      },
+      "7": {
+        "Waymo": 1037,
+        "i2Nav-Robot": 316
+      },
+      "8": {
+        "Waymo": 240,
+        "i2Nav-Robot": 23
+      },
+      "9": {
+        "Waymo": 193,
+        "i2Nav-Robot": 2422
+      },
+      "10": {
+        "Waymo": 528,
+        "i2Nav-Robot": 123
+      },
+      "11": {
+        "Waymo": 38
+      }
+    }
+  },
+  {
+    "K": 16,
+    "algorithm": "cv2.kmeans",
+    "attempts": 8,
+    "max_iter": 500,
+    "compactness": 728.5321929167258,
+    "mse": 0.047760075581272175,
+    "rmse": 0.21854078699700927,
+    "inertia": 728.5321929167258,
+    "inertia_per_sample": 0.047760075581272175,
+    "silhouette_sample": null,
+    "silhouette_note": "not computed: sklearn/scipy dependency intentionally avoided; use RMSE, cluster sizes, and visual anchor grids instead",
+    "min_cluster_size": 35,
+    "max_cluster_size": 4150,
+    "empty_clusters": 0,
+    "cluster_sizes": {
+      "0": 646,
+      "1": 2562,
+      "2": 240,
+      "3": 275,
+      "4": 4150,
+      "5": 47,
+      "6": 164,
+      "7": 165,
+      "8": 272,
+      "9": 622,
+      "10": 1745,
+      "11": 1486,
+      "12": 465,
+      "13": 35,
+      "14": 2189,
+      "15": 191
+    },
+    "source_by_cluster": {
+      "0": {
+        "Waymo": 527,
+        "i2Nav-Robot": 119
+      },
+      "1": {
+        "Waymo": 161,
+        "i2Nav-Robot": 2401
+      },
+      "2": {
+        "Waymo": 240
+      },
+      "3": {
+        "Waymo": 208,
+        "i2Nav-Robot": 67
+      },
+      "4": {
+        "Waymo": 4075,
+        "i2Nav-Robot": 75
+      },
+      "5": {
+        "Waymo": 47
+      },
+      "6": {
+        "Waymo": 164
+      },
+      "7": {
+        "Waymo": 165
+      },
+      "8": {
+        "Waymo": 264,
+        "i2Nav-Robot": 8
+      },
+      "9": {
+        "Waymo": 224,
+        "i2Nav-Robot": 398
+      },
+      "10": {
+        "Waymo": 1275,
+        "i2Nav-Robot": 470
+      },
+      "11": {
+        "Waymo": 1485,
+        "i2Nav-Robot": 1
+      },
+      "12": {
+        "Waymo": 460,
+        "i2Nav-Robot": 5
+      },
+      "13": {
+        "Waymo": 35
+      },
+      "14": {
+        "Waymo": 489,
+        "i2Nav-Robot": 1700
+      },
+      "15": {
+        "Waymo": 181,
+        "i2Nav-Robot": 10
+      }
+    }
+  },
+  {
+    "K": 20,
+    "algorithm": "cv2.kmeans",
+    "attempts": 8,
+    "max_iter": 500,
+    "compactness": 626.6737565621479,
+    "mse": 0.04108258532595699,
+    "rmse": 0.2026883946504017,
+    "inertia": 626.6737565621479,
+    "inertia_per_sample": 0.04108258532595699,
+    "silhouette_sample": null,
+    "silhouette_note": "not computed: sklearn/scipy dependency intentionally avoided; use RMSE, cluster sizes, and visual anchor grids instead",
+    "min_cluster_size": 34,
+    "max_cluster_size": 2753,
+    "empty_clusters": 0,
+    "cluster_sizes": {
+      "0": 404,
+      "1": 2489,
+      "2": 2160,
+      "3": 147,
+      "4": 192,
+      "5": 119,
+      "6": 164,
+      "7": 165,
+      "8": 595,
+      "9": 712,
+      "10": 46,
+      "11": 515,
+      "12": 671,
+      "13": 34,
+      "14": 205,
+      "15": 2753,
+      "16": 277,
+      "17": 2195,
+      "18": 149,
+      "19": 1262
+    },
+    "source_by_cluster": {
+      "0": {
+        "Waymo": 404
+      },
+      "1": {
+        "Waymo": 2459,
+        "i2Nav-Robot": 30
+      },
+      "2": {
+        "Waymo": 141,
+        "i2Nav-Robot": 2019
+      },
+      "3": {
+        "Waymo": 147
+      },
+      "4": {
+        "Waymo": 182,
+        "i2Nav-Robot": 10
+      },
+      "5": {
+        "Waymo": 119
+      },
+      "6": {
+        "Waymo": 164
+      },
+      "7": {
+        "Waymo": 165
+      },
+      "8": {
+        "Waymo": 203,
+        "i2Nav-Robot": 392
+      },
+      "9": {
+        "Waymo": 712
+      },
+      "10": {
+        "Waymo": 46
+      },
+      "11": {
+        "Waymo": 483,
+        "i2Nav-Robot": 32
+      },
+      "12": {
+        "Waymo": 528,
+        "i2Nav-Robot": 143
+      },
+      "13": {
+        "Waymo": 34
+      },
+      "14": {
+        "Waymo": 187,
+        "i2Nav-Robot": 18
+      },
+      "15": {
+        "Waymo": 2664,
+        "i2Nav-Robot": 89
+      },
+      "16": {
+        "Waymo": 210,
+        "i2Nav-Robot": 67
+      },
+      "17": {
+        "Waymo": 163,
+        "i2Nav-Robot": 2032
+      },
+      "18": {
+        "Waymo": 148,
+        "i2Nav-Robot": 1
+      },
+      "19": {
+        "Waymo": 841,
+        "i2Nav-Robot": 421
+      }
+    }
+  },
+  {
+    "K": 24,
+    "algorithm": "cv2.kmeans",
+    "attempts": 8,
+    "max_iter": 500,
+    "compactness": 555.1331140125585,
+    "mse": 0.03639262580389134,
+    "rmse": 0.19076851365959568,
+    "inertia": 555.1331140125585,
+    "inertia_per_sample": 0.03639262580389134,
+    "silhouette_sample": null,
+    "silhouette_note": "not computed: sklearn/scipy dependency intentionally avoided; use RMSE, cluster sizes, and visual anchor grids instead",
+    "min_cluster_size": 6,
+    "max_cluster_size": 2584,
+    "empty_clusters": 0,
+    "cluster_sizes": {
+      "0": 692,
+      "1": 559,
+      "2": 136,
+      "3": 693,
+      "4": 245,
+      "5": 109,
+      "6": 127,
+      "7": 1287,
+      "8": 169,
+      "9": 2206,
+      "10": 154,
+      "11": 34,
+      "12": 292,
+      "13": 124,
+      "14": 123,
+      "15": 384,
+      "16": 111,
+      "17": 2584,
+      "18": 148,
+      "19": 562,
+      "20": 46,
+      "21": 2148,
+      "22": 6,
+      "23": 2315
+    },
+    "source_by_cluster": {
+      "0": {
+        "Waymo": 623,
+        "i2Nav-Robot": 69
+      },
+      "1": {
+        "Waymo": 505,
+        "i2Nav-Robot": 54
+      },
+      "2": {
+        "Waymo": 136
+      },
+      "3": {
+        "Waymo": 693
+      },
+      "4": {
+        "Waymo": 188,
+        "i2Nav-Robot": 57
+      },
+      "5": {
+        "Waymo": 109
+      },
+      "6": {
+        "Waymo": 127
+      },
+      "7": {
+        "Waymo": 850,
+        "i2Nav-Robot": 437
+      },
+      "8": {
+        "Waymo": 161,
+        "i2Nav-Robot": 8
+      },
+      "9": {
+        "Waymo": 142,
+        "i2Nav-Robot": 2064
+      },
+      "10": {
+        "Waymo": 147,
+        "i2Nav-Robot": 7
+      },
+      "11": {
+        "Waymo": 34
+      },
+      "12": {
+        "Waymo": 187,
+        "i2Nav-Robot": 105
+      },
+      "13": {
+        "Waymo": 124
+      },
+      "14": {
+        "Waymo": 123
+      },
+      "15": {
+        "Waymo": 383,
+        "i2Nav-Robot": 1
+      },
+      "16": {
+        "Waymo": 111
+      },
+      "17": {
+        "Waymo": 2506,
+        "i2Nav-Robot": 78
+      },
+      "18": {
+        "Waymo": 147,
+        "i2Nav-Robot": 1
+      },
+      "19": {
+        "Waymo": 184,
+        "i2Nav-Robot": 378
+      },
+      "20": {
+        "Waymo": 46
+      },
+      "21": {
+        "Waymo": 175,
+        "i2Nav-Robot": 1973
+      },
+      "22": {
+        "Waymo": 6
+      },
+      "23": {
+        "Waymo": 2293,
+        "i2Nav-Robot": 22
+      }
+    }
+  },
+  {
+    "K": 32,
+    "algorithm": "cv2.kmeans",
+    "attempts": 8,
+    "max_iter": 500,
+    "compactness": 451.1931486565445,
+    "mse": 0.029578677635803362,
+    "rmse": 0.1719845273151145,
+    "inertia": 451.1931486565445,
+    "inertia_per_sample": 0.029578677635803362,
+    "silhouette_sample": null,
+    "silhouette_note": "not computed: sklearn/scipy dependency intentionally avoided; use RMSE, cluster sizes, and visual anchor grids instead",
+    "min_cluster_size": 5,
+    "max_cluster_size": 2157,
+    "empty_clusters": 0,
+    "cluster_sizes": {
+      "0": 2157,
+      "1": 133,
+      "2": 1263,
+      "3": 126,
+      "4": 35,
+      "5": 1475,
+      "6": 99,
+      "7": 130,
+      "8": 851,
+      "9": 485,
+      "10": 132,
+      "11": 291,
+      "12": 1102,
+      "13": 16,
+      "14": 120,
+      "15": 5,
+      "16": 81,
+      "17": 495,
+      "18": 628,
+      "19": 376,
+      "20": 242,
+      "21": 1922,
+      "22": 137,
+      "23": 30,
+      "24": 90,
+      "25": 258,
+      "26": 1257,
+      "27": 22,
+      "28": 182,
+      "29": 79,
+      "30": 694,
+      "31": 341
+    },
+    "source_by_cluster": {
+      "0": {
+        "Waymo": 2114,
+        "i2Nav-Robot": 43
+      },
+      "1": {
+        "Waymo": 133
+      },
+      "2": {
+        "Waymo": 104,
+        "i2Nav-Robot": 1159
+      },
+      "3": {
+        "Waymo": 120,
+        "i2Nav-Robot": 6
+      },
+      "4": {
+        "Waymo": 35
+      },
+      "5": {
+        "Waymo": 57,
+        "i2Nav-Robot": 1418
+      },
+      "6": {
+        "Waymo": 99
+      },
+      "7": {
+        "Waymo": 100,
+        "i2Nav-Robot": 30
+      },
+      "8": {
+        "Waymo": 660,
+        "i2Nav-Robot": 191
+      },
+      "9": {
+        "Waymo": 484,
+        "i2Nav-Robot": 1
+      },
+      "10": {
+        "Waymo": 132
+      },
+      "11": {
+        "Waymo": 141,
+        "i2Nav-Robot": 150
+      },
+      "12": {
+        "Waymo": 1102
+      },
+      "13": {
+        "Waymo": 16
+      },
+      "14": {
+        "Waymo": 120
+      },
+      "15": {
+        "Waymo": 5
+      },
+      "16": {
+        "Waymo": 81
+      },
+      "17": {
+        "Waymo": 125,
+        "i2Nav-Robot": 370
+      },
+      "18": {
+        "Waymo": 590,
+        "i2Nav-Robot": 38
+      },
+      "19": {
+        "Waymo": 376
+      },
+      "20": {
+        "Waymo": 234,
+        "i2Nav-Robot": 8
+      },
+      "21": {
+        "Waymo": 1881,
+        "i2Nav-Robot": 41
+      },
+      "22": {
+        "Waymo": 136,
+        "i2Nav-Robot": 1
+      },
+      "23": {
+        "Waymo": 30
+      },
+      "24": {
+        "Waymo": 90
+      },
+      "25": {
+        "Waymo": 258
+      },
+      "26": {
+        "Waymo": 88,
+        "i2Nav-Robot": 1169
+      },
+      "27": {
+        "Waymo": 22
+      },
+      "28": {
+        "Waymo": 160,
+        "i2Nav-Robot": 22
+      },
+      "29": {
+        "Waymo": 79
+      },
+      "30": {
+        "Waymo": 224,
+        "i2Nav-Robot": 470
+      },
+      "31": {
+        "Waymo": 204,
+        "i2Nav-Robot": 137
+      }
+    }
+  }
+]
