@@ -1,0 +1,289 @@
+{
+  "old_manifest": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v1/trajectory_vectors_with_anchor_K20.jsonl",
+  "new_root": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v2_filtered",
+  "input_rows": 15254,
+  "kept_rows": 14952,
+  "removed_rows": 302,
+  "removed_ratio": 0.019798085748000526,
+  "thresholds": {
+    "max_total_len": 1.45,
+    "max_step": 0.55,
+    "max_u_span": 1.15,
+    "max_v_span": 1.2,
+    "min_v_allowed": -0.75,
+    "max_bad_v_steps": 2,
+    "max_roughness": 1.3
+  },
+  "feature_quantiles_before_filtering": {
+    "total_len": {
+      "min": 0.026308346539735794,
+      "p50": 0.4066086411476135,
+      "p75": 0.48639512062072754,
+      "p90": 0.5641358494758606,
+      "p95": 0.6977107524871826,
+      "p98": 1.2288403511047363,
+      "p99": 1.5875531435012817,
+      "max": 3.0137391090393066
+    },
+    "max_step": {
+      "min": 0.0037893797270953655,
+      "p50": 0.0584568977355957,
+      "p75": 0.07001428306102753,
+      "p90": 0.08237484097480774,
+      "p95": 0.1036422923207283,
+      "p98": 0.18104925751686096,
+      "p99": 0.23249267041683197,
+      "max": 0.507124125957489
+    },
+    "u_span": {
+      "min": 0.0,
+      "p50": 0.04878099262714386,
+      "p75": 0.07504700124263763,
+      "p90": 0.1606599986553192,
+      "p95": 0.3027803599834442,
+      "p98": 0.5601856708526611,
+      "p99": 0.7362921237945557,
+      "max": 1.7466530799865723
+    },
+    "v_span": {
+      "min": 0.025973975658416748,
+      "p50": 0.3914654850959778,
+      "p75": 0.4656769931316376,
+      "p90": 0.5250459909439087,
+      "p95": 0.575139045715332,
+      "p98": 1.0238980054855347,
+      "p99": 1.4702588319778442,
+      "max": 1.9517629146575928
+    },
+    "min_v": {
+      "min": -0.988867998123169,
+      "p50": 0.4935069978237152,
+      "p75": 0.5796499848365784,
+      "p90": 0.626354992389679,
+      "p95": 0.6846010088920593,
+      "p98": 0.7847869992256165,
+      "p99": 0.8367350101470947,
+      "max": 0.9628940224647522
+    },
+    "max_v": {
+      "min": -0.9053800106048584,
+      "p50": 0.9132609963417053,
+      "p75": 0.9566299915313721,
+      "p90": 0.9814469814300537,
+      "p95": 0.988867998123169,
+      "p98": 0.9933279752731323,
+      "p99": 0.9944339990615845,
+      "max": 0.9949960112571716
+    },
+    "bad_v_steps": {
+      "min": 0.0,
+      "p50": 0.0,
+      "p75": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p98": 0.0,
+      "p99": 0.0,
+      "max": 0.0
+    },
+    "roughness": {
+      "min": 1.1920928955078125e-07,
+      "p50": 0.00892303790897131,
+      "p75": 0.020251989364624023,
+      "p90": 0.05133161321282387,
+      "p95": 0.08283305913209915,
+      "p98": 0.1427811086177826,
+      "p99": 0.2361845076084137,
+      "max": 1.9971399307250977
+    }
+  },
+  "remove_reasons": {
+    "min_v_too_high": 79,
+    "total_len": 223,
+    "v_span": 251,
+    "roughness": 5,
+    "u_span": 25
+  },
+  "source_counts_before": {
+    "Waymo": 10000,
+    "i2Nav-Robot": 5254
+  },
+  "source_counts_after": {
+    "Waymo": 9698,
+    "i2Nav-Robot": 5254
+  },
+  "old_anchor_counts_removed": {
+    "6": 161,
+    "7": 65,
+    "14": 10,
+    "13": 31,
+    "10": 29,
+    "8": 3,
+    "5": 1,
+    "11": 1,
+    "18": 1
+  },
+  "old_anchor_counts_kept": {
+    "1": 2489,
+    "19": 1262,
+    "15": 2753,
+    "9": 712,
+    "12": 671,
+    "11": 514,
+    "16": 277,
+    "0": 404,
+    "4": 192,
+    "5": 118,
+    "2": 2160,
+    "14": 195,
+    "18": 148,
+    "17": 2195,
+    "3": 147,
+    "8": 592,
+    "7": 100,
+    "10": 17,
+    "6": 3,
+    "13": 3
+  },
+  "kmeans": {
+    "K": 20,
+    "M": 8,
+    "compactness": 480.1442889717546,
+    "mse": 0.03211237887719065,
+    "rmse": 0.17919927141925174,
+    "min_cluster_count": 102,
+    "max_cluster_count": 2543,
+    "empty_clusters": 0,
+    "cluster_counts": [
+      2543,
+      2353,
+      180,
+      102,
+      167,
+      547,
+      112,
+      700,
+      2376,
+      1234,
+      2139,
+      132,
+      132,
+      261,
+      383,
+      265,
+      128,
+      760,
+      308,
+      130
+    ]
+  },
+  "new_anchor_domain_distribution": {
+    "0": {
+      "total": 2543,
+      "Waymo": 2482,
+      "i2Nav-Robot": 61
+    },
+    "1": {
+      "total": 2353,
+      "Waymo": 130,
+      "i2Nav-Robot": 2223
+    },
+    "2": {
+      "total": 180,
+      "Waymo": 160,
+      "i2Nav-Robot": 20
+    },
+    "3": {
+      "total": 102,
+      "Waymo": 102,
+      "i2Nav-Robot": 0
+    },
+    "4": {
+      "total": 167,
+      "Waymo": 167,
+      "i2Nav-Robot": 0
+    },
+    "5": {
+      "total": 547,
+      "Waymo": 149,
+      "i2Nav-Robot": 398
+    },
+    "6": {
+      "total": 112,
+      "Waymo": 112,
+      "i2Nav-Robot": 0
+    },
+    "7": {
+      "total": 700,
+      "Waymo": 700,
+      "i2Nav-Robot": 0
+    },
+    "8": {
+      "total": 2376,
+      "Waymo": 2348,
+      "i2Nav-Robot": 28
+    },
+    "9": {
+      "total": 1234,
+      "Waymo": 826,
+      "i2Nav-Robot": 408
+    },
+    "10": {
+      "total": 2139,
+      "Waymo": 383,
+      "i2Nav-Robot": 1756
+    },
+    "11": {
+      "total": 132,
+      "Waymo": 132,
+      "i2Nav-Robot": 0
+    },
+    "12": {
+      "total": 132,
+      "Waymo": 131,
+      "i2Nav-Robot": 1
+    },
+    "13": {
+      "total": 261,
+      "Waymo": 243,
+      "i2Nav-Robot": 18
+    },
+    "14": {
+      "total": 383,
+      "Waymo": 382,
+      "i2Nav-Robot": 1
+    },
+    "15": {
+      "total": 265,
+      "Waymo": 141,
+      "i2Nav-Robot": 124
+    },
+    "16": {
+      "total": 128,
+      "Waymo": 122,
+      "i2Nav-Robot": 6
+    },
+    "17": {
+      "total": 760,
+      "Waymo": 683,
+      "i2Nav-Robot": 77
+    },
+    "18": {
+      "total": 308,
+      "Waymo": 183,
+      "i2Nav-Robot": 125
+    },
+    "19": {
+      "total": 130,
+      "Waymo": 122,
+      "i2Nav-Robot": 8
+    }
+  },
+  "outputs": {
+    "filtered_manifest": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v2_filtered/trajectory_vectors_filtered_no_extreme.jsonl",
+    "removed_manifest": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v2_filtered/trajectory_vectors_removed_extreme.jsonl",
+    "new_manifest_with_anchors": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v2_filtered/trajectory_vectors_with_anchor_K20_filtered.jsonl",
+    "new_anchors_npy": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v2_filtered/anchors_K20_M8_norm.npy",
+    "new_anchors_json": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v2_filtered/anchors_K20_M8_norm.json",
+    "preview": "/home/Jupyter/datasets/tesla/Waymo_open_dataset/cross_domain_anchor_trajectories_cdad_planner_v2_filtered/anchors_K20_filtered_preview.jpg"
+  }
+}
